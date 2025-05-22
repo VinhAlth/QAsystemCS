@@ -1,8 +1,8 @@
-# 🧠 QA System for Computer Science Experts
+# QA System for Computer Science Experts
 
 A domain-specific **Question Answering (QA) system** designed to serve Computer Science experts with in-depth, citation-backed answers. This system leverages **state-of-the-art LLMs** with a **retrieval-augmented generation (RAG)** pipeline, integrating **semantic search** over curated academic documents.
 
-## 🏗️ System Architecture
+## System Architecture
 
 ![System Architecture](./system_architecture.png)
 
@@ -101,8 +101,8 @@ A domain-specific **Question Answering (QA) system** designed to serve Computer 
 
 📎 **References:**
 
-* [Goodfellow et al., 2016 – Deep Learning (MIT Press)](https://www.deeplearningbook.org/)
-* [Bishop, 2006 – Pattern Recognition and Machine Learning](https://link.springer.com/book/10.1007/978-0-387-45528-0)
+* [Goodfellow, Bengio, and Courville (2016). Deep Learning, MIT Press – Chapter 5: Machine Learning Basics](https://www.deeplearningbook.org/)
+* [Bishop, C. M. (2006). Pattern Recognition and Machine Learning, Springer – Chapter 9: Mixture Models and EM](https://link.springer.com/book/10.1007/978-0-387-45528-0)
 
 ---
 
