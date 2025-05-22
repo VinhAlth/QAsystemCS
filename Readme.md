@@ -1,19 +1,3 @@
-Mình thấy file README bạn gửi khá ổn, chỉ có một số chỗ cần chỉnh sửa nhỏ về format, markdown lỗi thừa dấu \` hoặc thiếu dấu, và mình sẽ thêm phần **Folder Structure** (bạn để trống) cũng như cải thiện phần ví dụ câu hỏi - trả lời cho chuyên nghiệp hơn.
-
----
-
-## Những lỗi chính mình chỉnh:
-
-* Dấu ``bash ở phần `pip install` thừa 1 dấu ` (bạn có 4 dấu ` `` thay vì 3)
-* Link Milvus trong markdown bạn escape dấu `_` thừa (chỉ cần link chuẩn là được)
-* Phần Folder Structure để trống, mình bổ sung lại theo mô tả bạn đã cho
-* Phần Contact có dấu ngoặc vuông lồng nhau sai markdown, sửa lại chuẩn
-* Một số phần dấu cách và format heading, list cho đẹp hơn
-
----
-
-## File README.md đã sửa lại hoàn chỉnh:
-
 ```markdown
 # 🧠 QA System for Computer Science Experts
 
