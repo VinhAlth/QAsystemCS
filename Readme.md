@@ -18,14 +18,44 @@ A domain-specific **Question Answering (QA) system** designed to serve Computer 
 
 ## 🔧 Technologies Used
 
-| Component        | Details                                   |
-|------------------|-------------------------------------------|
-| LLM Backbone     | `Meta LLaMA3 - 7B`                        |
-| Embedding Model  | `Alibaba-NLP/gte-large-en-v1.5`           |
-| Vector DB        | `Milvus`                                  |
-| Frontend         | `Gradio`                                  |
-| Programming      | `Jupyter Notebook (.ipynb)`               |
-| Data Sources     | OpenAlex, peer-reviewed papers, textbooks |
+<div align="center">
+
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LLM Backbone</td>
+      <td><code>Meta LLaMA3 - 7B</code></td>
+    </tr>
+    <tr>
+      <td>Embedding Model</td>
+      <td><code>Alibaba-NLP/gte-large-en-v1.5</code></td>
+    </tr>
+    <tr>
+      <td>Vector DB</td>
+      <td><code>Milvus</code></td>
+    </tr>
+    <tr>
+      <td>Frontend</td>
+      <td><code>Gradio</code></td>
+    </tr>
+    <tr>
+      <td>Programming</td>
+      <td><code>Jupyter Notebook (.ipynb)</code></td>
+    </tr>
+    <tr>
+      <td>Data Sources</td>
+      <td>OpenAlex, peer-reviewed papers, textbooks</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
 
 
 
@@ -89,23 +119,6 @@ Documents are:
 * Cleaned & preprocessed
 * Embedded with `gte-large-en-v1.5`
 * Stored in `Milvus` for efficient retrieval
-
----
-
-## 📈 Potential Improvements
-
-* [ ] Integrate LangChain or Haystack for modularity
-* [ ] Extend citation support to BibTeX/APA formats
-* [ ] Improve UI with user feedback and answer ratings
-* [ ] Deploy backend API with FastAPI or Flask
-
----
-
-## 👤 Author
-
-**Nguyễn Quốc Vinh**
-AI Researcher | QA Systems | LLMs for Science
-📬 Contact: [vinh025na@gmail.com](mailto:vinh025na@gmail.com)
 
 ---
 
