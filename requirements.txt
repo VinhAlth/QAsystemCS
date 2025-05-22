@@ -1,0 +1,22 @@
+# Core dependencies
+transformers==4.40.1
+torch>=2.0.0
+huggingface_hub>=0.21.4
+tqdm
+pandas
+numpy
+
+# LangChain ecosystem
+langchain==0.1.17
+langchain-core==0.1.46
+langchain-community==0.0.34
+
+# Vector Database (Milvus)
+pymilvus==2.4.2
+
+# Jupyter support (if using notebooks)
+notebook
+ipykernel
+
+# Optional utils
+python-dotenv
