@@ -10,11 +10,11 @@ A domain-specific **Question Answering (QA) system** designed to serve Computer 
 
 ## 📌 Key Features
 
-- 🔍 **Semantic Search**: Finds relevant academic content using embeddings from `Alibaba-NLP/gte-large-en-v1.5`
-- 🧠 **LLM Reasoning**: Uses `LLaMA3 7B` to answer questions based on retrieved documents
-- 📎 **Source Citation**: Each answer includes links to relevant academic papers (OpenAlex or other sources)
-- ⚡ **Gradio UI**: Clean and interactive web interface for real-time QA
-- 🧾 **Trusted Data**: Data sourced from OpenAlex and authoritative CS textbooks
+- **Semantic Search**: Finds relevant academic content using embeddings from `Alibaba-NLP/gte-large-en-v1.5`
+- **LLM Reasoning**: Uses `LLaMA3 7B` to answer questions based on retrieved documents
+- **Source Citation**: Each answer includes links to relevant academic papers (OpenAlex or other sources)
+- **Gradio UI**: Clean and interactive web interface for real-time QA
+- **Trusted Data**: Data sourced from OpenAlex and authoritative CS textbooks
 
 ## 🔧 Technologies Used
 
