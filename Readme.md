@@ -1,4 +1,3 @@
-```markdown
 # 🧠 QA System for Computer Science Experts
 
 A domain-specific **Question Answering (QA) system** designed to serve Computer Science experts with in-depth, citation-backed answers. This system leverages **state-of-the-art LLMs** with a **retrieval-augmented generation (RAG)** pipeline, integrating **semantic search** over curated academic documents.
