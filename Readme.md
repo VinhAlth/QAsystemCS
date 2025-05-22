@@ -28,21 +28,7 @@ A domain-specific **Question Answering (QA) system** designed to serve Computer 
 | Programming      | `Jupyter Notebook (.ipynb)`               |
 | Data Sources     | OpenAlex, peer-reviewed papers, textbooks |
 
-## 📁 Folder Structure
 
-```
-
-QAsystemCS/
-├── data/
-│   ├── dataset.json           # Main QA dataset
-│   └── Validation.csv         # Evaluation or dev set
-├── embed.ipynb               # Embedding and vector storage with Milvus
-├── LLM\_RAG.ipynb             # Main QA pipeline (LLM + retrieval)
-├── test.ipynb                # Testing and manual QA examples
-├── system\_architecture.png   # System design image
-└── README.md                 # This file
-
-````
 
 ## 🚀 How to Run
 
@@ -50,7 +36,7 @@ QAsystemCS/
 
 1. **Install dependencies**
 
-   ```bash
+```bash
    pip install -r requirements.txt
 ````
 
@@ -131,5 +117,4 @@ AI Researcher | QA Systems | LLMs for Science
 * Milvus Open Source Team
 * OpenAlex for free academic data access
 
-```
 
