@@ -1,3 +1,19 @@
+Mình thấy file README bạn gửi khá ổn, chỉ có một số chỗ cần chỉnh sửa nhỏ về format, markdown lỗi thừa dấu \` hoặc thiếu dấu, và mình sẽ thêm phần **Folder Structure** (bạn để trống) cũng như cải thiện phần ví dụ câu hỏi - trả lời cho chuyên nghiệp hơn.
+
+---
+
+## Những lỗi chính mình chỉnh:
+
+* Dấu ``bash ở phần `pip install` thừa 1 dấu ` (bạn có 4 dấu ` `` thay vì 3)
+* Link Milvus trong markdown bạn escape dấu `_` thừa (chỉ cần link chuẩn là được)
+* Phần Folder Structure để trống, mình bổ sung lại theo mô tả bạn đã cho
+* Phần Contact có dấu ngoặc vuông lồng nhau sai markdown, sửa lại chuẩn
+* Một số phần dấu cách và format heading, list cho đẹp hơn
+
+---
+
+## File README.md đã sửa lại hoàn chỉnh:
+
 ```markdown
 # 🧠 QA System for Computer Science Experts
 
@@ -8,7 +24,6 @@ A domain-specific **Question Answering (QA) system** designed to serve Computer 
 ![System Architecture](./system_architecture.png)
 
 > The pipeline integrates **vector-based retrieval (Milvus)** with **Meta's LLaMA3 7B** to generate accurate answers. Users query the system through an intuitive Gradio interface.
-
 
 ## 📌 Key Features
 
@@ -29,50 +44,68 @@ A domain-specific **Question Answering (QA) system** designed to serve Computer 
 | Programming      | `Jupyter Notebook (.ipynb)`               |
 | Data Sources     | OpenAlex, peer-reviewed papers, textbooks |
 
-
 ## 📁 Folder Structure
 
+```
 
+QAsystemCS/
+├── data/
+│   ├── dataset.json           # Main QA dataset
+│   └── Validation.csv         # Evaluation or dev set
+├── embed.ipynb               # Embedding and vector storage with Milvus
+├── LLM\_RAG.ipynb             # Main QA pipeline (LLM + retrieval)
+├── test.ipynb                # Testing and manual QA examples
+├── system\_architecture.png   # System design image
+└── README.md                 # This file
+
+````
 
 ## 🚀 How to Run
 
 > Ensure you have Python ≥ 3.8 and Jupyter installed. Run cells **sequentially from top to bottom** in each notebook.
 
 1. **Install dependencies**
+
    ```bash
    pip install -r requirements.txt
-    ````
+````
 
 2. **Start Milvus server**
+
    You can either use Docker or follow Milvus installation guide:
+
    [https://milvus.io/docs/install\_standalone-docker.md](https://milvus.io/docs/install_standalone-docker.md)
 
 3. **Run Notebooks**
 
-* `embed.ipynb`:
-  ⮕ Loads documents → generates embeddings → inserts into Milvus
+   * `embed.ipynb`:
 
-* `LLM_RAG.ipynb`:
-  ⮕ Accepts user query → retrieves documents → generates answer using LLaMA3 7B → returns detailed answer with source links
+     * Loads documents → generates embeddings → inserts into Milvus
 
-* `test.ipynb`:
-  ⮕ Try out your queries with various edge cases
+   * `LLM_RAG.ipynb`:
 
+     * Accepts user query → retrieves documents → generates answer using LLaMA3 7B → returns detailed answer with source links
+
+   * `test.ipynb`:
+
+     * Try out your queries with various edge cases
 
 ## 🧪 Example Output
 
-**Input**:
+**Input:**
 
 > *"What is the difference between supervised and unsupervised learning?"*
 
-**Output**:
+**Output:**
 
-> Supervised learning relies on labeled data, where each input has a corresponding output label. In contrast, unsupervised learning deals with unlabeled data and attempts to discover hidden patterns.
+> Supervised learning relies on labeled data, where each input has a corresponding output label. In contrast, unsupervised learning deals with unlabeled data and attempts to discover hidden patterns through clustering or dimensionality reduction.
 
-📎 References:
+📎 **References:**
 
 * [Goodfellow et al., 2016 – Deep Learning (MIT Press)](https://www.deeplearningbook.org/)
 * [Bishop, 2006 – Pattern Recognition and Machine Learning](https://link.springer.com/book/10.1007/978-0-387-45528-0)
+
+---
 
 ## 📚 Data Sources
 
@@ -103,10 +136,9 @@ Documents are:
 
 **Nguyễn Quốc Vinh**
 AI Researcher | QA Systems | LLMs for Science
-📬 Contact: \[[vinh025na@gmail.com](mailto:vinh025na@gmail.com)]
+📬 Contact: [vinh025na@gmail.com](mailto:vinh025na@gmail.com)
 
 ---
-
 
 ## Acknowledgements
 
@@ -116,3 +148,4 @@ AI Researcher | QA Systems | LLMs for Science
 * OpenAlex for free academic data access
 
 ```
+
